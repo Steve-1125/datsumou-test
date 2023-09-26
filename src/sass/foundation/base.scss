@@ -1,0 +1,24 @@
+@use "variable.scss" as var;
+@use "mixin.scss" as mix;
+
+html {
+    background-color: var.$base-bgColor;
+}
+
+body {
+    font-family: "Noto Sans JP", sans-serif;
+    color: var.$font-main;
+    cursor: default;
+    width: 100%;
+    font-size: 16px;
+    max-width: 375px;
+    margin: 0 auto;
+    background-color: var.$base-color;
+}
+
+.wrap {
+    background-color: var.$base-color;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
